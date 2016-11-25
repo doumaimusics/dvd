@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="content-language" content="en" />
+		<title>Surface Mount (SMT) PCB Assembly Service - PCBWay</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link href="css/base.css" type="text/css" rel="stylesheet" />
+		<link href="css/headerfoot.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/Capabilities2.css" />
+		<script src="js/jquery-1.6.4.min.js"></script>
+		<script src="js/bouncud.js"></script>
+	</head>
+	<style>
+	</style>
+
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<div class="topnav-bg"></div>
+			<div class="header-wrap wcontainer clearfix">
+				<div class="hm-left">
+					<div class="logo p-icon">
+						<a href="/" title="Custom PCB Prototype Manufacturer">PCBWay</a>
+					</div>
+					<div class="secondary-branding">
+						<p class="h1">PCB Prototype the Easy Way</p>
+						<p>Full feature custom PCB prototype service.</p>
+					</div>
+				</div>
+				<div class="hm-right">
+					<div class="hd-language">
+						<!--hover addclass "hd-func-dropdown-active"-->
+						<span class="hd-cur-item"><i class="p-icon icon-flag icon-en"></i> EN<i class="p-icon icon-select-angle"></i></span>
+						<div class="hd-list hd-fold hd-language-list">
+							<a href="javascript:void(0)" rel="nofollow" class="active"><i class="p-icon icon-flag icon-en"></i> English</a>
+							<a href="javascript:void(0)" rel="nofollow"><i class="p-icon icon-flag icon-es"></i> Español</a>
+						</div>
+					</div>
+					<div class="nav-cart">
+						<a href="#" rel="nofollow">
+							<i class="p-icon"></i>
+							<span class="text hidden-sm">Cart</span>
+							<span class="cart-number">2</span>
+						</a>
+					</div>
+					<div class="nav-user-account">
+						<!--hover addclass"user-account-unfold"-->
+						<div class="user-account-info clearfix">
+							<i class="p-icon"></i>
+							<div class="user-account-inner">
+								<!--<span class="account-unsigned"><a href="#" rel="nofollow">Sign in</a><span class="ua-line">|</span><a href="#" rel="nofollow">Join</a></span> -->
+								<span id="login-stat-signed" class="notranslate">Hi, <b>1</b></span>
+								<div class="mypcbway">
+									<span>My PCBWay</span>
+									<!--<a rel="nofollow" href="/member/">My PCBWay</a>-->
+									<b style="display: inline;">(9)</b>
+									<!--cooki 记录帐号 提供多少订单信息-->
+								</div>
+							</div>
+						</div>
+						<div class="user-account-main">
+							<div class="flyout-user-signout" style="display: block;">
+								<a href="#" rel="nofollow">Sign Out</a>
+							</div>
+							<!--登录后 addstyle"display:block"-->
+							<div class="flyout-user-signIn">
+								<!--登录前 addstyle"display:block"-->
+								<p class="flyout-welcome-text">Welcome back, huwei</p>
+								<!--没有cooki的时候 默认加"Welcome to PCBWay.com"-->
+								<p>
+									<a class="sign-btn" href="#" rel="nofollow">Sign in</a>
+								</p>
+							</div>
+							<dl class="flyout-visitors-login">
+								<!--登录前 addstyle"display:block"-->
+								<dt>New Customer?</dt>
+								<dd>
+									<a class="join-btn" href="#" rel="nofollow">Join Free</a>
+								</dd>
+							</dl>
+							<div class="flyout-remind-list">
+								<p>
+									<a rel="nofollow" href="#"><b>(1)</b>Items in your Cart now cost less!</a>
+								</p>
+							</div>
+							<ul class="flyout-quick-entry">
+								<li>
+									<a href="/member/" rel="nofollow">My PCBWay</a>
+								</li>
+								<li>
+									<a href="/member/order/orderview.aspx" rel="nofollow">My Order</a>
+								</li>
+								<li>
+									<a href="#" rel="nofollow">Production Status</a>
+								</li>
+								<li>
+									<a href="/member/specials/coupons.aspx" rel="nofollow">My Coupons</a>
+								</li>
+								<li>
+									<a href="/member/myprofile/deliveryaddress.aspx" rel="nofollow">Delivery Address</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navigation">
+				<div class="navigation-nav wcontainer">
+					<span class="topNavli current">
+                	<a class="navitem" href="/">Home</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/orderonline.aspx">PCB Instant Quote</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/pcb_prototype/">Product Center </a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/pcb-assembly.html">PCB Assembly</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/why.html">Why Us?</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/project/share/">Feedback</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/capabilities.html">Capabilities</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/sponsor.html">Sponsorships</a>
+                </span>
+					<span class="topNavli">
+                	<a class="navitem" href="/contact.html">Contact Us</a>	
+                </span>
+					<span class="right icon-nemail">
+                	<i class="p-icon"></i>Service@pcbway.com
+                </span>
+				</div>
+			</div>
+		</div>
+		<!--topbanner-->
+		<div class="topbanner" style="background:url(images/capabilities/pcb_capability.png) no-repeat 65% 100% #17191e;">
+			<div class="wcontainer clearfix">
+				<div class="container-left left">
+					<h1 class="clearfix">
+                        <i class="pway-icon"></i>
+                        <span>PCBWay PCB Capabilities</span>
+                    </h1>
+					<p class="text-lg">PCBWay has prototype PCB,PCB Production fabrication and pcb assembly capabilities.</p>
+					<div class="btn-box clearfix">
+						<div class="btn-L">
+							<a href="javascript:;" target="_blank">Instant Quote & Order Online</a>
+						</div>
+					</div>
+				</div>
+				<!--视频点击按钮-->
+				<div class="topbanner-video right">
+					<img src="images/capabilities/vd-bg.jpg" alt="">
+					<div class="bg-img pway-icon2"></div>
+				</div>
+			</div>
+		</div>
+		<!--中间区域-->
+		
+<div class="center-box">
+			<div class="wcontainer clearfix">
+				<div class="center-left left">
+					<div class="side-nav-inner">
+						<div class="side-nav-inner-list">
+							<h4>PCB Technology</h4>
+							<i class="menu-icon"></i>
+						</div>
+						<div class="side-nav-inner-box">
+							<div class="side-nav-inner-list">
+								<a href="javascript:;" class="side-nav-title-1 list-focus">PCB Capabilities<i class="icon-chevron-right"></i></a>
+								<!--current addclass "list-focus"-->
+							</div>
+							<div class="side-nav-inner-list">
+								<a href="javascript:;" class="side-nav-title-1">Quickturn PCB Fabrication<i class="icon-chevron-right"></i></a>
+							</div>
+							<div class="side-nav-inner-list">
+								<a href="javascript:;" class="side-nav-title-1">PCB Prototyping<i class="icon-chevron-right"></i></a>
+							</div>
+							<div class="side-nav-inner-list">
+								<a href="javascript:;" class="side-nav-title-1">Low-volume Production<i class="icon-chevron-right"></i></a>
+							</div>
+							<div class="side-nav-inner-list">
+								<a href="javascript:;" class="side-nav-title-1">FAQ of PCB<i class="icon-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<a href="/contact.html" target="_blank" class="section_help">
+						<p>Contact Us!</p>
+						<span>Our customer service<br> ready for your PCB</span>
+						<p>+86-571-85317532</p>
+					</a>
+					<p style="text-align: center; font-size: 14px; margin-top: 20px;">
+						<img src="images/quotes11.png" alt="quotes">I am impressed with the quality of the boards, the delivery time and responce to all my questions. Best price excellent service and speedy delivery. When I need another board I will certainly use this supplier. "</p>
+					<address style="text-align: center; font-size: 14px;"><i style="line-height: 1.67em;"><b>-Bill Robinson Company</b></i></address>
+					<p style="text-align: center; font-size: 14px; margin-top: 20px;">
+						<img src="images/quotes11.png" alt="quotes">спасибо за платы! платы очень хорошего качества. надежный продавец. оперативно отвечал на вопросы. заказ выполнили и отправили очень быстро.Заказываю платы не в первый раз - как всегда только лучшие впечатления. 5+++. 4 числа отправил файлы 26-го забрал на почте в Москве."</p>
+					<address style="text-align: center; font-size: 14px; margin-bottom: 20px;">
+                    <i style="line-height: 1.67em;"><b>-FVL. SKU Company</b></i></address>
+				</div>
+				<!--中间右边-->
+				<div class="center-right right">
+					<div class="referral">
+						<p>There is no such thing as a standard printed circuit board. Each PCB has a unique function for a particular product. Therefore, producing a PCB is a complex process of many steps. This overview covers the most important steps when producing a multilayer PCB.<br> When you order PCBs from the PCBWay, you are buying quality that pays for itself over time. This is guaranteed through a product specification and quality control that is far more stringent than other suppliers, and ensures that the product delivers what it promises. In the production flow below you can see where the PCBWay process is unique or goes beyond the IPC standard.
+						</p>
+					</div>					
+					<div class="fw-img-box">
+						<div class="text">
+							Click the icon to view the details
+						</div>
+						<div class="J-fw-img">
+					
+										 
+					   <img src="images/capabilities/bg4.png" alt="" usemap="#wechat-fw-01" class="region-button" href="拖动到一个文件以创建链接"/>
+		                <map name="wechat-fw-01" id="wechat-fw-01">
+					    <area shape="poly" coords="3,314,64,275,148,326,85,363" href="javascript:;" class="hotpoint">
+					   <area shape="poly" coords="163,333,246,380,182,418,97,369" href="javascript:;" class="hotpoint">
+		               <area shape="poly" coords="259,387,344,434,277,469,196,425" href="javascript:;" class="hotpoint">
+                       <area shape="poly" coords="359,329,444,377,366,423,284,375" href="javascript:;" class="hotpoint">
+                       <area shape="poly" coords="262,277,347,322,271,367,187,319" href="javascript:;" class="hotpoint">
+		               <area shape="poly" coords="91,265,167,219,249,268,171,312" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="187,209,263,164,347,213,270,259" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="285,264,361,214,444,268,367,312" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="459,275,544,325,467,367,381,321" href="javascript:;" class="hotpoint">
+                        <area shape="poly" coords="639,268,562,312,478,266,557,214" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="459,165,543,215,465,259,383,210" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="282,156,359,111,444,157,369,202" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="383,101,459,54,541,103,465,148" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="554,109,638,159,564,204,481,156" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="734,214,658,257,576,210,652,165" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="749,110,831,158,757,203,675,155" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="577,100,653,55,735,104,659,146" href="javascript:;" class="hotpoint">
+		                <area shape="poly" coords="479,45,557,0,639,47,560,92" href="javascript:;" class="hotpoint">
+              </map>
+					 
+					 
+					 		<img src="images/capabilities/bg01.png" alt="" class="img-bg img-bg01"/>
+                         <img src="images/capabilities/bg01.png" alt="" class="img-bg img-bg17"/>
+		                <img src="images/capabilities/bg01.png" alt="" class="img-bg img-bg18"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg16"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg15"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg02"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg03"/>
+                         <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg13"/>
+    		             <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg14"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg11"/>		                
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg12"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg04"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg05"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg10"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg09"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg08"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg07"/>
+		                <img src="images/capabilities/bg02.png" alt="" class="img-bg img-bg06"/>
+		                
+		            
+		            
+					  </div>
+					</div>
+					 <div class="table-box">
+					 	<table border="0" cellspacing="0" cellpadding="0">
+					 		<tr>
+					 			<td>01.Pre Production Engineering</td>
+					 			<td>02.Preparing the phototools</td>
+					 			<td>03.Print inner layers</td>
+					 			<td>04.Etch inner layers</td>
+					 			<td>05.AOI</td> 					 			
+					 		</tr>
+					 		<tr>
+
+					 			<td>06.Lay-up and bond</td>
+					 			<td>07.Drilling the PCB</td>
+					 			<td>08.Electroless copper  deposition</td>
+					 			<td>09.Image the outer layers</td>
+					 			<td>10.Plating </td>
+					 		</tr>
+					 		<tr>
+					 								 			
+					 			<td>11.Etch outer layer</td>
+					 			<td>12.AOI</td>
+					 			<td>13.Soldermask</td>
+					 			<td>14.Surface finish</td>
+					 			<td>15.Profile</td>
+					 			
+					 			
+					 		</tr>
+					 		<tr>
+					 			
+					 			<td>16.Electrical test</td>
+					 			<td>17.Final inspection</td>
+					 			<td>18.Packaging</td>
+					 		
+					 			<td>19.Delivery</td>
+					 			<td>20.After-Sales Service</td>
+					 		</tr>
+					 	</table>
+					 </div>
+					 <div class="present-1">印制板的加工，一般都是外协加工，所以在外协加工提供图纸时，一定要准确无误，尽量说明清楚，应注意诸如材料的选型、压层的顺序、板厚、公差要求、加工工艺等等，都要说明清楚。在PCB导出GERBER时，导出数据建议采用RS274X格式，因为它有如下优点：CAM系统能自动录入数据，整个过程不须人工参与，可避免许多麻烦，同时能保持很好的一致性，减少出差率。</div>
+				</div>
+			</div>
+		</div>
+
+<!--公用弹框-->
+<div class="mask"></div>
+<div class="close"></div>
+<div class="Capacity">
+
+	
+	<img src="" alt="" class="icon"/>
+	<h3 class="title"></h3>
+	<div class="centerbox">
+		<p class="present"></p>
+		<ul>
+			<li>
+				<img src="" alt="" />
+			</li>
+			<li>
+				<img src=""/>
+			</li>
+		</ul>
+	</div>
+</div>
+	
+<!--底部-->
+		<div class="footer">
+			<div class="wcontainer">
+				<div class="footer_left">
+					<div class="footer_left_top">
+						<dl>
+							<dt>Capabilities</dt>
+							<dd>
+								<a href="/capabilities.html" target="_blank">PCB Capabilities</a>
+							</dd>
+							<dd>
+								<a href="/quickturn-pcb-fabrication.html" target="_blank">Quickturn PCB Fabrication</a>
+							</dd>
+							<dd>
+								<a href="/stencil.aspx" target="_blank">SMD Stencils</a>
+							</dd>
+							<dd>
+								<a href="/prototype_pcb/" target="_blank">Prototype PCBs</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>Products/Services</dt>
+							<dd>
+								<a href="/orderonline.aspx" target="_blank">PCB Instant Quote</a>
+							</dd>
+							<dd>
+								<a href="/assembly-capabilities.html" target="_blank">PCB Assembly Service</a>
+							</dd>
+							<dd>
+								<a href="/pcb_prototype/" target="_blank">PCB Prototyping</a>
+							</dd>
+							<dd>
+								<a href="/pcb-service.html" target="_blank">Our Equipments</a>
+							</dd>
+							<dd>
+								<a href="/blog/" target="_blank">Blog/Engineering</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>Customer Support</dt>
+							<dd>
+								<a href="/project/share/" target="_blank">Feedback</a>
+							</dd>
+							<dd>
+								<a href="/sponsor.html" target="_blank">Sponsorships</a>
+							</dd>
+							<dd>
+								<a href="/faq-of-pcb.html" target="_blank">PCB FAQs</a>
+							</dd>
+							<dd>
+								<a href="/pcb_glossary/" target="_blank">PCB Glossary</a>
+							</dd>
+							<dd>
+								<a href="/project/member/invite/invite.aspx" target="_blank" rel="nofollow">Referral Program</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>About us</dt>
+							<dd>
+								<a href="/about.html" target="_blank">About Us</a>
+							</dd>
+							<dd>
+								<a href="/why.html" target="_blank">Why Buy From Us?</a>
+							</dd>
+							<dd>
+								<a href="/shipping_method_guide.aspx" target="_blank">Shipping Method Guide</a>
+							</dd>
+							<dd>
+								<a href="/privacy_policy.html" target="_blank">Privacy Policy</a>
+							</dd>
+							<dd>
+								<a href="/contact.html" target="_blank">Contact Us</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="footer_left_bottom">
+						<dl>
+							<dt>Payment Methods</dt>
+							<dd class="p-icon pay-methods">Paypal,Western Union,Bank Transfer,WebMoney,Visa,Credit Card</dd>
+						</dl>
+						<dl>
+							<dt>Delivery Services</dt>
+							<dd class="p-icon delivery-service">FedEx,UPS,DHL,China Post Air Mail,TNT,EMS ePacket,Hongkong Post Air Mail,EMS</dd>
+						</dl>
+						<dl>
+							<dt>Verified by</dt>
+							<dd>
+								<a href="http://www.pcbway.com/img/images/iso.jpg" target="_blank" class="p-icon iso9001">ISO 9001:2008 Certificate</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>Link Us on</dt>
+							<dd class="clearfix">
+								<a href="https://www.facebook.com/pcbway" target="_blank" title="Follow us on facebook" class="p-icon facebook">Facebook</a>
+								<a href="https://twitter.com/pcbway1" target="_blank" title="Follow us on twitter" class="p-icon twitter">twitter</a>
+								<a href="https://www.linkedin.com/company/pcbway" target="_blank" title="Follow us on linkedin" class="p-icon linkedin">linkedin</a>
+								<a href="https://plus.google.com/+pcbway1" target="_blank" title="Follow us on google plus" class="p-icon googlplus">google plus</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="footer_right">
+					<ul>
+						<li><input type="text" id="name" value="Name" name="name" class="text" onFocus="if(this.value=='Name')this.value=''" onBlur="if(this.value=='')this.value='Name'"></li>
+						<li><input type="text" id="email" value="Email" name="email" class="text" onFocus="if(this.value=='Email')this.value=''" onBlur="if(this.value=='')this.value='Email'"></li>
+						<li><textarea id="message" name="message" onFocus="if(this.value=='Message')this.value=''" onBlur="if(this.value=='')this.value='Message'" rows="6">Message</textarea></li>
+						<li><input type="submit" class="ui-button-primary" id="footer-button" value="Send Message"></li>
+					</ul>
+				</div>
+				<p class="bottom-logo"><span class="p-icon">PCBWay</span> Custom PCB Prototype the Easy Way!</p>
+				<div class="footer_bottom">
+					Shenzhen JDB Technology Co., Ltd Address: No.2, Industry 3rd Road, Jinsha Village, Kengzi Street, Pingshan New Disctrict, Shenzhen, China HK Weiku information & Technology Co., Ltd Hangzhou Weiku information & Technology Co.,Ltd Address: 12th Floor,West No.2 Building, XinTianDi Business Center, No.71-8 ShiXiang Road,XiaCheng District,Hangzhou, China
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
